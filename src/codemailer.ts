@@ -3,7 +3,7 @@ import { Emails } from './emails/emails';
 import { isCodemailerErrorResponse } from './guards';
 import type { ErrorResponse } from './interfaces';
 
-const baseUrl = 'https://codemailer-api.bfnsga.workers.dev';
+const baseUrl = 'https://api.codemailer.dev';
 const userAgent = `codemailer-node:${version}`;
 
 export class Codemailer {
